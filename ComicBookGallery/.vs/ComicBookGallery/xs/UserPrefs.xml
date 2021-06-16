@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{EDF16FC0-9D6D-4CCD-BB69-3232C1BCBCEE}|Default">
+  <MonoDevelop.Ide.ItemProperties.ComicBookGallery PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookGallery/Controllers/ComicBooksController.cs">
+    <Files>
+      <File FileName="ComicBookGallery/Program.cs" Line="16" Column="1" />
+      <File FileName="ComicBookGallery/Controllers/ComicBooksController.cs" Line="4" Column="51" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ComicBookGallery" expanded="True">
+            <Node name="ComicBookGallery" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ComicBooksController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
