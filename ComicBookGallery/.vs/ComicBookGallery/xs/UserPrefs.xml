@@ -1,19 +1,22 @@
 ﻿<Properties StartupConfiguration="{EDF16FC0-9D6D-4CCD-BB69-3232C1BCBCEE}|Default">
   <MonoDevelop.Ide.ItemProperties.ComicBookGallery PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookGallery/Controllers/ComicBooksController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookGallery/Views/ComicBooks/Index.cshtml">
     <Files>
       <File FileName="ComicBookGallery/Program.cs" Line="16" Column="1" />
-      <File FileName="ComicBookGallery/Controllers/ComicBooksController.cs" Line="14" Column="9" />
+      <File FileName="ComicBookGallery/Controllers/ComicBooksController.cs" Line="16" Column="13" />
+      <File FileName="ComicBookGallery/Views/ComicBooks/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ComicBookGallery" expanded="True">
             <Node name="ComicBookGallery" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ComicBooksController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="ComicBooks" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
               </Node>
-              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
