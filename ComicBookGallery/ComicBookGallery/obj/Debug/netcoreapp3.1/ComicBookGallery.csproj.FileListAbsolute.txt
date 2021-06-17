@@ -34,3 +34,4 @@
 /Users/tpl5_2021h1/Desktop/Stack Overflow/repos/Treehouse-MVC-Basics/ComicBookGallery/ComicBookGallery/obj/Debug/netcoreapp3.1/ComicBookGallery.pdb
 /Users/tpl5_2021h1/Desktop/Stack Overflow/repos/Treehouse-MVC-Basics/ComicBookGallery/ComicBookGallery/obj/Debug/netcoreapp3.1/ComicBookGallery.genruntimeconfig.cache
 /Users/tpl5_2021h1/Desktop/Stack Overflow/repos/Treehouse-MVC-Basics/ComicBookGallery/ComicBookGallery/obj/Debug/netcoreapp3.1/ComicBookGallery.csproj.CopyComplete
+/Users/tpl5_2021h1/Desktop/Stack Overflow/repos/Treehouse-MVC-Basics/ComicBookGallery/ComicBookGallery/obj/Debug/netcoreapp3.1/Razor/Views/ComicBooks/Detail.cshtml.g.cs
