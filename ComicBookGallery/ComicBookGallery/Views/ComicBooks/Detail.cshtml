@@ -12,6 +12,19 @@
         "Colors: Edgar Delgado",
         "Letters: Chris Eliopoulos"
     };
+    var imageUrl = "https://www.chasingamazingblog.com/wp-content/uploads/2013/10/ASM700_06.jpg";
+
+    var seriesTitle2 = "Legend of Korra: Turf Wars";
+    var issueNumber2 = '?';
+    var description2 = "<p>New beginnings for Korra and Asami!</p>";
+    var artists2 = new string[]
+    {
+        "Script: Michael Dante DiMartino",
+        "Artist: Irene Koh",
+        "Colors: Killian Ng",
+        "Letters: Nate Piekos"
+    };
+    var imageUrl2 = "https://images-na.ssl-images-amazon.com/images/I/91lVcdZHSWL.jpg";
 }
 
 <!DOCTYPE html>
@@ -22,15 +35,38 @@
     <title></title>
 </head>
 <body>
-    <div>
+    <div class="card">
         <h1>@seriesTitle</h1>
         <h2>Issue #@issueNumber</h2>
+        <image src="@Url.Content(imageUrl)" width="50%" />
 
         <h5>Description:</h5>
         <div>@Html.Raw(description)</div>
 
+        @if (artists.Length > 0)
+        {
+            <h5>Artists:</h5>
+            <div>
+                <ul>
+                    @foreach (var artist in artists)
+                    {
+                        <li>@artist</li>
+                    }
+                </ul>
+            </div>
+        }
+    </div>
+
+    <div class="card">
+        <h1>@seriesTitle2</h1>
+        <h2>Issue #@issueNumber2</h2>
+        <image src="@Url.Content(imageUrl2)" width="50%" />
+
+        <h5>Description:</h5>
+        <div>@Html.Raw(description2)</div>
+
         <h5>Artists:</h5>
-        <div>@artists</div>
+        <div>@artists2</div>
     </div>
 </body>
 </html>
