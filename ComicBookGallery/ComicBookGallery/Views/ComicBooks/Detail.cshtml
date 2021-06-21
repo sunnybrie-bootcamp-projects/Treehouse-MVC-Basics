@@ -1,61 +1,38 @@
 ﻿@{
-    Layout = null;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Comic Book Detail";
 
   
 
-    var seriesTitle2 = "Legend of Korra: Turf Wars";
-    var issueNumber2 = '?';
-    var description2 = "<p>New beginnings for Korra and Asami!</p>";
-    var artists2 = new string[]
-    {
-        "Script: Michael Dante DiMartino",
-        "Artist: Irene Koh",
-        "Colors: Killian Ng",
-        "Letters: Nate Piekos"
-    };
-    var imageUrl2 = "https://images-na.ssl-images-amazon.com/images/I/91lVcdZHSWL.jpg";
+//    var seriesTitle2 = "Legend of Korra: Turf Wars";
+//  var issueNumber2 = '?';
+//    var description2 = "<p>New beginnings for Korra and Asami!</p>";
+//    var artists2 = new string[]
+//    {
+//        "Script: Michael Dante DiMartino",
+//        "Artist: Irene Koh",
+//        "Colors: Killian Ng",
+//        "Letters: Nate Piekos"
+//    };
+//    var imageUrl2 = "https://images-na.ssl-images-amazon.com/images/I/91lVcdZHSWL.jpg";
 }
 
-<!DOCTYPE html>
+<h1>@ViewBag.SeriesTitle</h1>
+<h2>Issue #@ViewBag.IssueNumber</h2>
+<image src="@Url.Content(ViewBag.ImageUrl)" width="50%" />
 
-<html>
-<head>
-    <meta name="viewport" content="width=decide-width" />
-    <title></title>
-</head>
-<body>
-    <div class="card">
-        <h1>@ViewBag.SeriesTitle</h1>
-        <h2>Issue #@ViewBag.IssueNumber</h2>
-        <image src="@Url.Content(ViewBag.ImageUrl)" width="50%" />
+<h5>Description:</h5>
+<div>@Html.Raw(ViewBag.Description)</div>
 
-        <h5>Description:</h5>
-        <div>@Html.Raw(ViewBag.Description)</div>
-
-        @if (ViewBag.Artists.Length > 0)
-        {
-            <h5>Artists:</h5>
-            <div>
-                <ul>
-                    @foreach (var artist in ViewBag.Artists)
-                    {
-                        <li>@artist</li>
-                    }
-                </ul>
-            </div>
-        }
+@if (ViewBag.Artists.Length > 0)
+{
+    <h5>Artists:</h5>
+    <div>
+        <ul>
+            @foreach (var artist in ViewBag.Artists)
+            {
+                <li>@artist</li>
+            }
+        </ul>
     </div>
-
-    <div class="card">
-        <h1>@seriesTitle2</h1>
-        <h2>Issue #@issueNumber2</h2>
-        <image src="@Url.Content(imageUrl2)" width="50%" />
-
-        <h5>Description:</h5>
-        <div>@Html.Raw(description2)</div>
-
-        <h5>Artists:</h5>
-        <div>@artists2</div>
-    </div>
-</body>
-</html>
+}
