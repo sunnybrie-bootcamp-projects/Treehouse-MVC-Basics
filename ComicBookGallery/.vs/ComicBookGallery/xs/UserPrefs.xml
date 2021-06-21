@@ -1,22 +1,31 @@
 ﻿<Properties StartupConfiguration="{EDF16FC0-9D6D-4CCD-BB69-3232C1BCBCEE}|Default">
   <MonoDevelop.Ide.ItemProperties.ComicBookGallery PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookGallery/Models/Artist.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookGallery/Scripts/bootstrap.min.js">
     <Files>
-      <File FileName="ComicBookGallery/Views/Shared/_Layout.cshtml" Line="11" Column="7" IsPinned="True" />
-      <File FileName="ComicBookGallery/Views/ComicBooks/Detail.cshtml" Line="12" Column="45" IsPinned="True" />
-      <File FileName="ComicBookGallery/Models/ComicBook.cs" Line="14" Column="42" />
-      <File FileName="ComicBookGallery/Models/Artist.cs" Line="1" Column="1" />
+      <File FileName="ComicBookGallery/Views/Shared/_Layout.cshtml" Line="28" Column="11" IsPinned="True" />
+      <File FileName="ComicBookGallery/Views/ComicBooks/Detail.cshtml" Line="39" Column="1" IsPinned="True" />
+      <File FileName="ComicBookGallery/Models/ComicBook.cs" Line="33" Column="6" />
+      <File FileName="ComicBookGallery/Models/Artist.cs" Line="11" Column="41" />
+      <File FileName="ComicBookGallery/Controllers/ComicBooksController.cs" Line="29" Column="34" />
+      <File FileName="ComicBookGallery/Program.cs" Line="16" Column="1" />
+      <File FileName="ComicBookGallery/Scripts/bootstrap.min.js" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ComicBookGallery" expanded="True">
             <Node name="ComicBookGallery" expanded="True">
+              <Node name="Content" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="ComicBooks" expanded="True" />
-                <Node name="Shared" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="bootstrap.min.js" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True" />
               </Node>
             </Node>
           </Node>
