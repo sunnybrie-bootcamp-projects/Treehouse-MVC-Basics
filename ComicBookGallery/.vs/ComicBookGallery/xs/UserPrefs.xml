@@ -1,31 +1,22 @@
 ﻿<Properties StartupConfiguration="{EDF16FC0-9D6D-4CCD-BB69-3232C1BCBCEE}|Default">
   <MonoDevelop.Ide.ItemProperties.ComicBookGallery PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookGallery/Scripts/bootstrap.min.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ComicBookGallery/Data/ComicBookRepository.cs">
     <Files>
       <File FileName="ComicBookGallery/Views/Shared/_Layout.cshtml" Line="28" Column="11" IsPinned="True" />
-      <File FileName="ComicBookGallery/Views/ComicBooks/Detail.cshtml" Line="39" Column="1" IsPinned="True" />
-      <File FileName="ComicBookGallery/Models/ComicBook.cs" Line="33" Column="6" />
-      <File FileName="ComicBookGallery/Models/Artist.cs" Line="11" Column="41" />
-      <File FileName="ComicBookGallery/Controllers/ComicBooksController.cs" Line="29" Column="34" />
+      <File FileName="ComicBookGallery/Views/ComicBooks/Detail.cshtml" IsPinned="True" />
+      <File FileName="ComicBookGallery/Models/ComicBook.cs" />
+      <File FileName="ComicBookGallery/Models/Artist.cs" />
+      <File FileName="ComicBookGallery/Controllers/ComicBooksController.cs" />
       <File FileName="ComicBookGallery/Program.cs" Line="16" Column="1" />
-      <File FileName="ComicBookGallery/Scripts/bootstrap.min.js" Line="1" Column="1" />
+      <File FileName="ComicBookGallery/Data/ComicBookRepository.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ComicBookGallery" expanded="True">
             <Node name="ComicBookGallery" expanded="True">
-              <Node name="Content" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="bootstrap.min.js" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="js" expanded="True" />
-                <Node name="lib" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="ComicBookRepository.cs" selected="True" />
               </Node>
             </Node>
           </Node>

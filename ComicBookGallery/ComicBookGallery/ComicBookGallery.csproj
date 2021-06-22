@@ -6,10 +6,12 @@
 
   <ItemGroup>
     <None Remove="Views\ComicBooks\" />
+    <None Remove="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\ComicBooks\" />
     <Folder Include="wwwroot\css\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\css\" />
